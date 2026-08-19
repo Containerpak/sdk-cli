@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
+  "manifest_version": "2.0",
+  "name": "Command Line SDK",
+  "description": "The search, text and archive tools a development environment is expected to have.",
+  "version": "1.0.0",
+  "image": "ghcr.io/containerpak/sdk-cli:main",
+  "binaries": [
+    "/usr/bin/jq",
+    "/usr/bin/rg",
+    "/usr/bin/fd",
+    "/usr/bin/fzf",
+    "/usr/bin/shellcheck",
+    "/usr/bin/sqlite3",
+    "/usr/bin/tree",
+    "/usr/bin/curl",
+    "/usr/bin/wget",
+    "/usr/bin/unzip",
+    "/usr/bin/zip",
+    "/usr/bin/xz",
+    "/usr/bin/zstd"
+  ],
+  "desktop_entries": [],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "filesystem": [
+      {
+        "path": "home",
+        "access": "read-write"
+      }
+    ],
+    "network": true
+  }
+}
