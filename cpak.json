@@ -4,7 +4,7 @@
   "name": "Command Line SDK",
   "description": "The search, text and archive tools a development environment is expected to have.",
   "version": "1.0.0",
-  "image": "ghcr.io/containerpak/sdk-cli@sha256:fa7be6d9532a0bb860e8cf1f0ce7d7f67d25e61d357348f99ac585b0b8da0cdb",
+  "image": "ghcr.io/containerpak/sdk-cli@sha256:c0be191cdd33fc78fef5ac70d0792d5b1dff30b39d848ce3c774b7d1e289cace",
   "binaries": [
     "/usr/bin/jq",
     "/usr/bin/rg",
